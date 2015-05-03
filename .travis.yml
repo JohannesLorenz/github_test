@@ -2,5 +2,5 @@ language: cpp
 compiler:
   - clang
 before_script:
-  - apt-cache search graph
+  - apt-cache show libboost-dev libboost-graph1.48.0 libboost-graph1.48.0 libqt4-dev qt4-qmake
   - sudo apt-get install libboost-graph1.48.0
