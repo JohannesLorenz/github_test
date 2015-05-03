@@ -3,3 +3,4 @@ compiler:
   - clang
 before_script:
   - apt-cache search graph
+  - sudo apt-get install libboost-graph1.48.0
