@@ -3,5 +3,4 @@ compiler:
   - clang
 before_script:
   - sudo apt-get update -qq
-  - sudo apt-get install libboost-dev libboost-bimap-dev libboost-graph-dev \
-    libboost-phoenix-dev libboost-spirit-dev libboost-variant-dev
+  - sudo apt-get install libboost-dev libboost-graph-dev
